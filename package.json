@@ -1,0 +1,16 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "promise.js",
+  "dependencies": {
+    "nvm": "^0.0.4",
+    "power-assert": "^1.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
