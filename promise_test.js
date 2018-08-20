@@ -45,5 +45,15 @@ describe('Basic test', () => {
         assert(false);
       })
     });
+
+    it('it is bad pattern', () => {
+      return myBeRejected().catch((error) => {
+        assert(error.message === 'woo');
+      });
+    });
   });
+
+  function myBeRejected() {
+    return Promise.reject(new Error('woo'));
+  }
 });
